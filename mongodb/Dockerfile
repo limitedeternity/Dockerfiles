@@ -8,7 +8,7 @@ RUN touch /.firstrun
 
 # Command to run
 ENTRYPOINT ["bash", "/scripts/run.sh"]
-CMD [""]
+CMD ["--smallfiles"]
 
 # Expose listen port
 EXPOSE 27017
